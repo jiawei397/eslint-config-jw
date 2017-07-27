@@ -1,8 +1,18 @@
 {
-  "name": "eslint-config-jw",
+  "name": "eslint-config-jw397",
   "version": "0.0.1",
   "main": "index.js",
   "peerDependencies": {
     "eslint": "^3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiawei397/eslint-config-jw.git"
+  },
+  "author": "jw",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "jw"
+  ]
 }
