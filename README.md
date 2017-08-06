@@ -1,5 +1,7 @@
 ## 本地eslint配置
 
+规则详见官网：http://eslint.org/docs/rules
+
 "eslint": "^3.7.1",
 "eslint-config-standard": "^6.1.0",
 "eslint-friendly-formatter": "^2.0.5",

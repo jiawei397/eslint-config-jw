@@ -28,12 +28,8 @@ module.exports = {
         "no-extend-native": ["error", {
             "exceptions": ["String", "Date"]//目前只允许这两个
         }],
-        // 禁止使用void操作符
-        'no-void': 'error',
         // 禁用 with 语句
         'no-with': 'error',
-        // parseInt 要求必须有基数
-        'radix': 'error',
         // 需要把立即执行的函数包裹起来，比如 (function () { return { y: 1 };})();
         'wrap-iife': ['error', 'inside'],
 
@@ -46,6 +42,7 @@ module.exports = {
 
         // 禁止定义前使用变量
         'no-use-before-define': ['error', {
+            variables: false,
             functions: false,
             classes: false
         }],
@@ -60,8 +57,8 @@ module.exports = {
         "no-unused-vars": ["error", {
             "vars": "all",
             "args": "none",
-            "ignoreRestSiblings": false,
-            "varsIgnorePattern": "[initCB_|itemClickCB_|sst]"
+            "ignoreRestSiblings": false
+            // "varsIgnorePattern": "[initCB_|itemClickCB_|sst]"
         }],
         "operator-linebreak": ["error", "before"],
         // 末尾需要分号
@@ -78,6 +75,9 @@ module.exports = {
         "no-redeclare": ["warn"],
         //禁止使用eval表达式
         "no-eval": ["warn"],
+        "no-void":1,//使用void运算符
+        "array-bracket-even-spacing":1,//数组换行
+        "object-curly-even-spacing":1,//对象换行
 
         // ---------------------------- 关闭 -----------------------------------
         //箭头函数，不作要求
@@ -95,6 +95,8 @@ module.exports = {
         "no-extra-parens": ["off"],
         // 禁用不必要的 .call() 和 .apply()
         "no-useless-call": "off",
+        "no-sequences":0,//允许逗号运算符
+        "radix":0, //parseInt不需要强制输入10
         //变量只在一处定义
         "one-var": ["off"]
     },
