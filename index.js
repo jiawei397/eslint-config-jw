@@ -97,6 +97,7 @@ module.exports = {
         "no-useless-call": "off",
         "no-sequences":0,//允许逗号运算符
         "radix":0, //parseInt不需要强制输入10
+        "standard/no-callback-literal": [0, ["cb", "callback"]],
         //变量只在一处定义
         "one-var": ["off"]
     },
