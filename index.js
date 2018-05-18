@@ -63,6 +63,8 @@ module.exports = {
         "operator-linebreak": ["error", "before"],
         // 末尾需要分号
         "semi": ["error", "always"],
+        // 强制使用单引号
+        "quotes": ["error", "single", { "allowTemplateLiterals": true,"avoidEscape": true }],
 
         // ---------------------------- 警告 -----------------------------------
         //驼峰命名
@@ -86,8 +88,6 @@ module.exports = {
         "eqeqeq": "off", //off = 0
         'generator-star-spacing': 0,
         "indent": ["off"],
-        //引号
-        "quotes": ["off"], //["error","double"],
         "space-before-blocks": ["off"],
         "spaced-comment": "off",
         //允许tab换行
