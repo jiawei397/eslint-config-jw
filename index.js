@@ -77,7 +77,6 @@ module.exports = {
     //禁止使用eval表达式
     'no-eval': ['warn'],
     'no-void': 1, //使用void运算符
-    'array-bracket-even-spacing': 1, //数组换行
     //扩展原生对象
     'no-extend-native': 1,
     'no-useless-return': 1,
@@ -86,6 +85,8 @@ module.exports = {
     // ---------------------------- 关闭 -----------------------------------
     //箭头函数，不作要求
     'arrow-parens': 0,
+    'array-bracket-spacing': 0,
+    'array-bracket-even-spacing': 0, //数组换行
     'object-curly-spacing': 0,
     'object-curly-even-spacing': 0,
     // 不要求使用 === 和 !==
