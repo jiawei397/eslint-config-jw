@@ -3,24 +3,24 @@
   "version": "0.0.9",
   "main": "index.js",
   "peerDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.16.0",
-    "eslint-config-standard": "^11.0.0-beta.0",
-    "eslint-plugin-html": "^4.0.2",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-config-standard": "*",
+    "eslint-plugin-html": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-node": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-standard": "*"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.16.0",
-    "eslint-config-standard": "^11.0.0-beta.0",
-    "eslint-plugin-html": "^4.0.2",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-config-standard": "*",
+    "eslint-plugin-html": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-node": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-standard": "*"
   },
   "repository": {
     "type": "git",
