@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jw397",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "main": "index.js",
   "peerDependencies": {
     "babel-eslint": "*",
